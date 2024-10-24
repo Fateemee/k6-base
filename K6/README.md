@@ -2,11 +2,11 @@
 ## Overview
 This project implements performance testing using k6, a modern load testing tool. It includes various types of tests such as load, stress, and spike and soak testing, focusing on the sign-up and login functionalities of an API.
 # Setup
-##### you first need to create log for. Open terminal and follow bellow command
+#####  First need to create log file. Open terminal and follow bellow command
 ###### For Windows
-- mkdir -p log/load log/stress log/spike
+- your_command | Out-File -FilePath "C:\path\to\your\logfile.log"
 ###### For Linux
-- mkdir -p log/load log/stress log/spike
+- mkdir -p log/load log/stress log/spike log/soak
 # Load Tests
 ##### A load test measures the system's performance under expected traffic conditions, 
 ##### ensuring that it can handle the anticipated number of users over a prolonged period without degrading
